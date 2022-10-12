@@ -42,9 +42,9 @@ li {
 }
 
 #second li {
-  padding: 30px;
-  margin-top: 30px;
   font-size: 20px;
+  padding: 15px;
+  margin: 20px 30px 0 0; 
 }
 
 #third {
@@ -97,5 +97,8 @@ h2 {
 }
 
 button {
+  font-size: 15px;
   margin-top: 20px;
+  background-color: #FDECAB;
+  border-radius: 5px;
 }
