@@ -9,7 +9,7 @@
 </head>
 <body>
     <section id="top">
-        <h1>Introduce myself</h1>
+        <h1 id="item">Introduce myself</h1>
     </section>
     
     <section id="second">
@@ -18,9 +18,12 @@
                 <li>太田 えみり</li>
                 <li>1998年11月28日生まれ</li>
                 <li>埼玉県新座市出身</li>
+                <li>大学卒業後靴の小売業に就職しましたが、<br>
+                    ITの将来性に魅力を感じ会社を退職。<br>
+                    夜間の専門学校でWebデザインを専攻しています。</li>
             </ul>
         </div>
-        <p><img src="image.png" alt="太田えみりの写真"></p>
+        <p><img id="me" src="image.png" alt="太田えみりの写真"></p>
     </section>
 
     <section id="third">
@@ -45,13 +48,9 @@
     </section>
 
     <section id="fourth">
-        <script>
-            function myFunction () {
-                document.getElementById("comment").innerHTML="これからよろしくお願いします！";
-            }
-        </script>
         <p id="comment">私の自己紹介は以上です！</p>
         <button type="button" onclick="myFunction()">最後にひとこと</button>
     </section>    
+    <script src="sample.js"></script>
 </body>
 </html>
